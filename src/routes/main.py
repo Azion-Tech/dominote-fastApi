@@ -1,6 +1,6 @@
 from src.sys import app
 
 @app.get("/")
-def read_root():
+def default():
     return {"Hello": "World"}
 
