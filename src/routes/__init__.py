@@ -1,2 +1,2 @@
 from .main import *
-from .players.list import *
+from .players import *
