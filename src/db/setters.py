@@ -1,7 +1,7 @@
 
 
 
-from sqlmodel import select, Session, SQLModel
+from sqlmodel import Session, SQLModel
 from .engine import sql_engine
 
 """Retrieve data from the Players table in the database."""

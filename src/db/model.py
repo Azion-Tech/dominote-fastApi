@@ -6,5 +6,3 @@ class Players(SQLModel, table=True):
     score: int | None = Field(default=0)
     wins: int | None = Field(default=0)
     games_played: int | None = Field(default=0)
-    
-    
